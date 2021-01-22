@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    font-family: Abel, sans-serif;
+}
+
+#logoBack {
+    background-color: white;
+    height: 50px;
+    top: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+#logo {
+    height: 105px;
+    width: 105px;
+    z-index: 2;
+    margin: 1.5em auto;
+}
+
+.headings, span {
+    font-family: anton, sans-serif;
+}
+
+#nav {
+    margin-bottom: 2em;
+}
+
+#utah {
+    margin-bottom: 2em;
+}
+
+#visualDesign {
+    margin-bottom: 2em;
+}
+
