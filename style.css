@@ -100,7 +100,7 @@ body {
 .badgeBase {
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 20%;
 }
 
 .badge-letter {
@@ -118,6 +118,20 @@ p {
     }
     .theLast {
         display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .navbarMedium {
+        display: none;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .bar {
+        z-index: 1;
     }
 }
 
@@ -145,7 +159,7 @@ p {
 
     .companyName {
         position: relative;
-        bottom: 95px;
+        /*bottom: 95px;*/
         right: 175px;
         z-index: 2;
     }
@@ -159,18 +173,17 @@ p {
         width: 90%;
         position: relative;
         z-index: 2;
-        bottom: 150px;
+        /*bottom: 150px;*/
         margin: 0;
     }
 
     .mainHeader {
         position: relative;
-        bottom: 100px;
+        /*bottom: 100px;*/
         z-index: 3;
     }
 
     #visualDesign h2{
-        height: 65px;
         font-size: 2.75em;
     }
 
@@ -237,6 +250,11 @@ p {
     i {
         color: #009DFA;
     }
+
+    .navbarMedium {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 992px){
@@ -253,4 +271,12 @@ p {
         margin-right: 0;
         margin-left: 0;
     }
+
+    /*.bar {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.logoMain {*/
+    /*    display: none;*/
+    /*}*/
 }
